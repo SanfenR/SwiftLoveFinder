@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C665D057CC0059E1AB3BCED /* Pods_LoveFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC66CF3390578BBFE3B2C51E /* Pods_LoveFinder.framework */; };
+		B3D153B86A7409BC68E9625D /* LoveFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D1555ED70BA3BA26EBE47A /* LoveFinderTests.swift */; };
+		B3D155DAA3DDFE1389AD667A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15D3C1A0F4B4D6977F927 /* ViewController.swift */; };
+		B3D1582DF87955D4C454D3CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D155CC07F091FE18CB3D64 /* AppDelegate.swift */; };
+		B3D15B517101893A735C135C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D15A21412F6A82470D9120 /* Main.storyboard */; };
+		B3D15BB6FD0E06FA1C5143CC /* LoveFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D15A80DF70D212E270EBDF /* LoveFinderUITests.swift */; };
+		B3D15FDFD6D3F43748419DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D15BE081739117F357FEF6 /* Assets.xcassets */; };
+		B3D15FE32E286DBF24060270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D15028541DA96B6AC2642C /* LaunchScreen.storyboard */; };
+		CCEEE9CBBC42C40EE16BA968 /* Pods_LoveFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA4EE97865C5DFBCB68730C /* Pods_LoveFinderUITests.framework */; };
+		D12E937747C928854EE90B23 /* Pods_LoveFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CE80DDAED10F97FBA51234 /* Pods_LoveFinderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D15882BCD3AF8836FE0A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D1564652548C02B62C67E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D15A4D1FF2807040ECC146;
+			remoteInfo = LoveFinder;
+		};
+		B3D15DA78B1185F7135FE7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D1564652548C02B62C67E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D15A4D1FF2807040ECC146;
+			remoteInfo = LoveFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22C13E19442AE1E82571AEE1 /* Pods-LoveFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFinderUITests/Pods-LoveFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C18DC0A74D25564A77E5BD3 /* Pods-LoveFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFinder/Pods-LoveFinder.release.xcconfig"; sourceTree = "<group>"; };
+		77123B15903D7F43FEFECB16 /* Pods-LoveFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFinderTests/Pods-LoveFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E7C179977DED5740AE6CBB7 /* Pods-LoveFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFinderTests/Pods-LoveFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0CE80DDAED10F97FBA51234 /* Pods_LoveFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC66CF3390578BBFE3B2C51E /* Pods_LoveFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D1523C62AD6151D0681A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3D1555ED70BA3BA26EBE47A /* LoveFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveFinderTests.swift; sourceTree = "<group>"; };
+		B3D155CC07F091FE18CB3D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3D158AE80C1F03B7E6319D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3D15A29D0074749F6E54063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3D15A80DF70D212E270EBDF /* LoveFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveFinderUITests.swift; sourceTree = "<group>"; };
+		B3D15BB943AD26AF55FE4EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3D15BE081739117F357FEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3D15C158B2660DFBC72C03F /* LoveFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D15D3C1A0F4B4D6977F927 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3D15D417A1E60464CDC168F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3D15E0CF1798E0D33BB91E8 /* LoveFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D15F4A3984BA2AD1FF5850 /* LoveFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA4EE97865C5DFBCB68730C /* Pods_LoveFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD018C026B823651A00A14E4 /* Pods-LoveFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFinder/Pods-LoveFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		E8888F0E900B3DCA8E32BD37 /* Pods-LoveFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFinderUITests/Pods-LoveFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D154B97C9826CD1D81E41D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C665D057CC0059E1AB3BCED /* Pods_LoveFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D15CA43F78451B300112C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEEE9CBBC42C40EE16BA968 /* Pods_LoveFinderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D15D58B168088EA5F4B8A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12E937747C928854EE90B23 /* Pods_LoveFinderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3D1528592652D897F271591 /* LoveFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D15BB943AD26AF55FE4EA8 /* Info.plist */,
+				B3D1555ED70BA3BA26EBE47A /* LoveFinderTests.swift */,
+			);
+			path = LoveFinderTests;
+			sourceTree = "<group>";
+		};
+		B3D15BE314FD3D10F633FE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D15E0CF1798E0D33BB91E8 /* LoveFinder.app */,
+				B3D15F4A3984BA2AD1FF5850 /* LoveFinderTests.xctest */,
+				B3D15C158B2660DFBC72C03F /* LoveFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D15C2CCF0B1392507EE9D3 /* LoveFinder */ = {
+			isa = PBXGroup;
+			children = (
+				B3D158AE80C1F03B7E6319D0 /* Info.plist */,
+				B3D15BE081739117F357FEF6 /* Assets.xcassets */,
+				B3D15028541DA96B6AC2642C /* LaunchScreen.storyboard */,
+				B3D155CC07F091FE18CB3D64 /* AppDelegate.swift */,
+				B3D15A21412F6A82470D9120 /* Main.storyboard */,
+				B3D15D3C1A0F4B4D6977F927 /* ViewController.swift */,
+			);
+			path = LoveFinder;
+			sourceTree = "<group>";
+		};
+		B3D15C6EC9770B682C8454AE = {
+			isa = PBXGroup;
+			children = (
+				B3D15BE314FD3D10F633FE38 /* Products */,
+				B3D15C2CCF0B1392507EE9D3 /* LoveFinder */,
+				B3D1528592652D897F271591 /* LoveFinderTests */,
+				B3D15F26E488CEBDE32E6659 /* LoveFinderUITests */,
+				BBC1942095E1CD74601D830F /* Pods */,
+				FBA04F915F75B66F549F4189 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D15F26E488CEBDE32E6659 /* LoveFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1523C62AD6151D0681A4F /* Info.plist */,
+				B3D15A80DF70D212E270EBDF /* LoveFinderUITests.swift */,
+			);
+			path = LoveFinderUITests;
+			sourceTree = "<group>";
+		};
+		BBC1942095E1CD74601D830F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD018C026B823651A00A14E4 /* Pods-LoveFinder.debug.xcconfig */,
+				2C18DC0A74D25564A77E5BD3 /* Pods-LoveFinder.release.xcconfig */,
+				7E7C179977DED5740AE6CBB7 /* Pods-LoveFinderTests.debug.xcconfig */,
+				77123B15903D7F43FEFECB16 /* Pods-LoveFinderTests.release.xcconfig */,
+				22C13E19442AE1E82571AEE1 /* Pods-LoveFinderUITests.debug.xcconfig */,
+				E8888F0E900B3DCA8E32BD37 /* Pods-LoveFinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBA04F915F75B66F549F4189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC66CF3390578BBFE3B2C51E /* Pods_LoveFinder.framework */,
+				A0CE80DDAED10F97FBA51234 /* Pods_LoveFinderTests.framework */,
+				BEA4EE97865C5DFBCB68730C /* Pods_LoveFinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D154A9DD22F2CDB23E206D /* LoveFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D15EC97C5A0F42205E20A8 /* Build configuration list for PBXNativeTarget "LoveFinderTests" */;
+			buildPhases = (
+				F632CC178DE16D54401B2AB4 /* [CP] Check Pods Manifest.lock */,
+				B3D15BE1FA77D67E7643EC4A /* Sources */,
+				B3D15D58B168088EA5F4B8A0 /* Frameworks */,
+				B3D154C534DCD8550C644D93 /* Resources */,
+				A39768412F325890554EE3BC /* [CP] Embed Pods Frameworks */,
+				E86358088BCB0D8D9C607C22 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D15BEF72D2ABFF2581F899 /* PBXTargetDependency */,
+			);
+			name = LoveFinderTests;
+			productName = LoveFinderTests;
+			productReference = B3D15F4A3984BA2AD1FF5850 /* LoveFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3D15A4D1FF2807040ECC146 /* LoveFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D15604A754B3102AE8FF7B /* Build configuration list for PBXNativeTarget "LoveFinder" */;
+			buildPhases = (
+				F03E38F8AD20ABE8A9E20544 /* [CP] Check Pods Manifest.lock */,
+				B3D15AB26E95300AA0429216 /* Sources */,
+				B3D154B97C9826CD1D81E41D /* Frameworks */,
+				B3D159E4E5367BC3C70FA92B /* Resources */,
+				E0EB5F50F509EB67EE63042C /* [CP] Embed Pods Frameworks */,
+				CD829213DE5CA471D7AC59CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveFinder;
+			productName = LoveFinder;
+			productReference = B3D15E0CF1798E0D33BB91E8 /* LoveFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3D15BC8A2DD2540C130E9E9 /* LoveFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D15DEECAD32196678D65A9 /* Build configuration list for PBXNativeTarget "LoveFinderUITests" */;
+			buildPhases = (
+				75EDFE7558AACED25FA8137C /* [CP] Check Pods Manifest.lock */,
+				B3D15BE4E9144C9F368C7800 /* Sources */,
+				B3D15CA43F78451B300112C2 /* Frameworks */,
+				B3D15D1189030AD2ABF61903 /* Resources */,
+				1749E28A0EC49E107CD2C903 /* [CP] Embed Pods Frameworks */,
+				0C8686396B150A0998923086 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D15E218108B9162959DC8D /* PBXTargetDependency */,
+			);
+			name = LoveFinderUITests;
+			productName = LoveFinderUITests;
+			productReference = B3D15C158B2660DFBC72C03F /* LoveFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D1564652548C02B62C67E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = sanfen;
+			};
+			buildConfigurationList = B3D15888B3A47ADEB40B38E8 /* Build configuration list for PBXProject "LoveFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3D15C6EC9770B682C8454AE;
+			productRefGroup = B3D15BE314FD3D10F633FE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D15A4D1FF2807040ECC146 /* LoveFinder */,
+				B3D154A9DD22F2CDB23E206D /* LoveFinderTests */,
+				B3D15BC8A2DD2540C130E9E9 /* LoveFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D154C534DCD8550C644D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D159E4E5367BC3C70FA92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D15FDFD6D3F43748419DCE /* Assets.xcassets in Resources */,
+				B3D15FE32E286DBF24060270 /* LaunchScreen.storyboard in Resources */,
+				B3D15B517101893A735C135C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D15D1189030AD2ABF61903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C8686396B150A0998923086 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveFinderUITests/Pods-LoveFinderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1749E28A0EC49E107CD2C903 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveFinderUITests/Pods-LoveFinderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75EDFE7558AACED25FA8137C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A39768412F325890554EE3BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveFinderTests/Pods-LoveFinderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD829213DE5CA471D7AC59CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveFinder/Pods-LoveFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0EB5F50F509EB67EE63042C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveFinder/Pods-LoveFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86358088BCB0D8D9C607C22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveFinderTests/Pods-LoveFinderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F03E38F8AD20ABE8A9E20544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F632CC178DE16D54401B2AB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D15AB26E95300AA0429216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D1582DF87955D4C454D3CE /* AppDelegate.swift in Sources */,
+				B3D155DAA3DDFE1389AD667A /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D15BE1FA77D67E7643EC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D153B86A7409BC68E9625D /* LoveFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D15BE4E9144C9F368C7800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D15BB6FD0E06FA1C5143CC /* LoveFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D15BEF72D2ABFF2581F899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D15A4D1FF2807040ECC146 /* LoveFinder */;
+			targetProxy = B3D15DA78B1185F7135FE7B3 /* PBXContainerItemProxy */;
+		};
+		B3D15E218108B9162959DC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D15A4D1FF2807040ECC146 /* LoveFinder */;
+			targetProxy = B3D15882BCD3AF8836FE0A6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3D15028541DA96B6AC2642C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D15D417A1E60464CDC168F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B3D15A21412F6A82470D9120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D15A29D0074749F6E54063 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3D150A93940A47197F87F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77123B15903D7F43FEFECB16 /* Pods-LoveFinderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoveFinder.app/LoveFinder";
+				INFOPLIST_FILE = LoveFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sanfen.ios.LoveFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B3D1521BD346B707D45E2C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D1549D9493F943BA8C5BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C13E19442AE1E82571AEE1 /* Pods-LoveFinderUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LoveFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sanfen.ios.LoveFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+				TEST_TARGET_NAME = LoveFinder;
+			};
+			name = Debug;
+		};
+		B3D1598CFCCB226EC0AAC084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C18DC0A74D25564A77E5BD3 /* Pods-LoveFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sanfen.ios.LoveFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Release;
+		};
+		B3D15A6C55992FBDF788C138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7C179977DED5740AE6CBB7 /* Pods-LoveFinderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoveFinder.app/LoveFinder";
+				INFOPLIST_FILE = LoveFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sanfen.ios.LoveFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B3D15AE607C883D9771FAE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3D15C22BC67432A2C7DEEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD018C026B823651A00A14E4 /* Pods-LoveFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sanfen.ios.LoveFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Debug;
+		};
+		B3D15DE32658C83353C47190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8888F0E900B3DCA8E32BD37 /* Pods-LoveFinderUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LoveFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sanfen.ios.LoveFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+				TEST_TARGET_NAME = LoveFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D15604A754B3102AE8FF7B /* Build configuration list for PBXNativeTarget "LoveFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D15C22BC67432A2C7DEEAC /* Debug */,
+				B3D1598CFCCB226EC0AAC084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D15888B3A47ADEB40B38E8 /* Build configuration list for PBXProject "LoveFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D15AE607C883D9771FAE78 /* Debug */,
+				B3D1521BD346B707D45E2C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D15DEECAD32196678D65A9 /* Build configuration list for PBXNativeTarget "LoveFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D1549D9493F943BA8C5BC9 /* Debug */,
+				B3D15DE32658C83353C47190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D15EC97C5A0F42205E20A8 /* Build configuration list for PBXNativeTarget "LoveFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D15A6C55992FBDF788C138 /* Debug */,
+				B3D150A93940A47197F87F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D1564652548C02B62C67E4 /* Project object */;
+}

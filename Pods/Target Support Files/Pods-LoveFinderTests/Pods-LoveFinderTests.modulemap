@@ -1,0 +1,6 @@
+framework module Pods_LoveFinderTests {
+  umbrella header "Pods-LoveFinderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
