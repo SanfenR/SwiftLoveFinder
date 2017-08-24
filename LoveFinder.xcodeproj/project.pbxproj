@@ -677,6 +677,7 @@
 				B3D1598CFCCB226EC0AAC084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D15888B3A47ADEB40B38E8 /* Build configuration list for PBXProject "LoveFinder" */ = {
 			isa = XCConfigurationList;
@@ -694,6 +695,7 @@
 				B3D15DE32658C83353C47190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D15EC97C5A0F42205E20A8 /* Build configuration list for PBXNativeTarget "LoveFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -702,6 +704,7 @@
 				B3D150A93940A47197F87F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
