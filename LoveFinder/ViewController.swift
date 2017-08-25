@@ -43,9 +43,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let gregorian = Calendar(identifier:Calendar.Identifier.gregorian)
         let now = Date()
         let components = gregorian.dateComponents([.year], from: birth.date, to: now)
-        let age = components.year
 
-        info.text = name.text! + gen + "\(age)" + heigthLab.text!
+        info.text = name.text! + gen + String(components.year!) + heigthLab.text!
     }
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
